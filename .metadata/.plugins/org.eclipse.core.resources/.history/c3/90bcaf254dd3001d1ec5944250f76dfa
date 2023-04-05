@@ -1,0 +1,20 @@
+package d;
+
+import java.util.Scanner;
+
+public class dd {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("정수 입력 : ");
+		int num = sc.nextInt();
+		
+		System.out.println(num);
+		
+		char ch = 65;
+		System.out.println(ch);
+		
+	}
+
+}
