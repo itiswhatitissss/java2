@@ -2,7 +2,7 @@ package ex02;
 
 import java.util.*;
 
-public class Exam08 {
+public class Exam06 {
 
 	public static void main(String[] args) {
 
