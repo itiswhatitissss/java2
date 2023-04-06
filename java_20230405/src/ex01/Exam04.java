@@ -20,7 +20,7 @@ public class Exam04 {
 		System.out.println("정수입력");
 		int num = sc.nextInt();
 		
-		int result = ()
+		
 	}
 
 }

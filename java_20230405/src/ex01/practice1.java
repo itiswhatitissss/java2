@@ -23,12 +23,12 @@ public class practice1 {
 	    
 	    
 	    //ex2
-	    Scanner ssc = new Scanner(System.in);
-	    System.out.println();
-	    int num = ssc.nextInt();
-	    
-	    int second2 = num % 60;
-	    int hour2 = num 
+		/*
+		 * Scanner ssc = new Scanner(System.in); System.out.println(); int num =
+		 * ssc.nextInt();
+		 * 
+		 * int second2 = num % 60; int hour2 = num
+		 */
 	    		
 	    
 
