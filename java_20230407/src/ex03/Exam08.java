@@ -6,7 +6,7 @@ public class Exam08 {
 
 	public static void main(String[] args) {
 		
-		int bot = (int)(Math.random()*3)+1;
+		int bot = (int)(Math.random()*3)+1; //Math.random은 0.00000 ~ 0.9999999
 		System.out.println("1가위,2바위,3보");
 		
 		Scanner sc = new Scanner(System.in);
