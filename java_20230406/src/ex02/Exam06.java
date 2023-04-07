@@ -20,7 +20,6 @@ public class Exam06 {
 			System.out.println("군대안간다");
 	}
 	
-	
 //	Scanner sc = new Scanner(System.in);
 	
 //	int age = sc.nextInt();
