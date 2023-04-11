@@ -9,21 +9,18 @@ public class Dowhile {
 		
 		Scanner sc = new Scanner(System.in);
 		int sum = 0;
-		while(true) {
-			System.out.println("몇개 입력할거야?");
-			int limit = sc.nextInt();
-			System.out.println("정수만 입력하도록");
-			for(int i=1;i<=limit;i++) {
-				int input = sc.nextInt();
-				if(input%2==0)
-					sum += input;
-				else
-					break;
-					
-			}
-			
-			System.out.println(sum);
+		System.out.println("몇개 입력할거야?");
+		int limit = sc.nextInt();
+		System.out.println("정수만 입력하도록");
+		
+		for(int i=1;i<=limit;) {
+			int input = sc.nextInt();
+			if(input%2==0) {
+				i++;
+				sum += input;}
+			else if(input/1.0!=0)
+				System.out.println("정수를 입력해주세요");
+		}
+		System.out.println(sum);	
 		}
 	}
-
-}
