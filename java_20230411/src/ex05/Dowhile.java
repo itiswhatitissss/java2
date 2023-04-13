@@ -14,6 +14,7 @@ public class Dowhile {
 		System.out.println("정수만 입력하도록");
 		
 		for(int i=1;i<=limit;) {
+<<<<<<< HEAD
 			
 			int input = sc.nextInt();
 			
@@ -31,8 +32,21 @@ public class Dowhile {
 					sc.next();
 					System.out.println("정수만 입력하셔요");
 					continue;
+=======
+			int input = sc.nextInt();
+			if(input%2==0) {
+				i++;
+				sum += input;}
+			else if(input/1.0!=0)
+				System.out.println("정수를 입력해주세요");
+		}
+		System.out.println(sum);	
+>>>>>>> f809a2e0a2132674af1e2f01f9fbb5e4ae4a2362
 		}
 		}
 		System.out.println("합 = "+sum);	
 	}
+<<<<<<< HEAD
 	}
+=======
+>>>>>>> f809a2e0a2132674af1e2f01f9fbb5e4ae4a2362
