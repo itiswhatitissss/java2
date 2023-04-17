@@ -15,13 +15,14 @@ public class FunctionExam04 {
 		return result;
 		
 	}
+	//
 	static void sumFunction2(int num1) {
 		int result=0;
 		for(int i=1;i<=num1;i++)
 			result += i;
 		if(result%2==0)
 			System.out.println("짝수"+result);
-		if(result%2==1)
+		else if(result%2==1)
 			System.out.println("홀수"+result);
 	}
 }
