@@ -27,7 +27,7 @@ public class practice {
 				break;
 			case 3: 
 				System.out.println("예금");
-				System.out.println("현재예금"+budget);
+				System.out.println("현재잔고"+budget);
 				break;
 			case 4:
 				System.out.println("프로그램 종료");
