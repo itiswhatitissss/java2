@@ -22,6 +22,7 @@ class BankApplication{
 	final int SIZE = 100;
 	Account[] ac = new Account[SIZE];
 }
+
 public class BankTest {
 
 	public static void main(String[] args) {
