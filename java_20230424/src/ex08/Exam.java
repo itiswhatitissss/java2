@@ -5,7 +5,7 @@ interface Exam {
 	public abstract void sleep();
 }
 
-class cat implements Aniaml {
+class cat implements Animal {
 	public void eat() {
 		System.out.println("고양이는 먹는다");
 	}
@@ -23,4 +23,6 @@ public class Exam {
 		
 	}
 
+	
+}
 }
