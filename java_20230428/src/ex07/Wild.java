@@ -15,7 +15,7 @@ class Box<T>{
 
 public class Wild {
 	
-	public static void addBox(Box<? super Integer>b1, Box<? extends Integer>b2, Box<? extends Integer>b3) {
+	public static void addBox(Box<? super Integer>b1, Box<? extends Integer>b2, Box<Integer>b3) { // b3 extends로 제약 걸어줘야 됨
 	b3.setOb(b2.getOb()+b3.getOb());
 	}
 	

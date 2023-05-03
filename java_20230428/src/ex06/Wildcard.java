@@ -21,13 +21,13 @@ class Toy {
 class BoxHandler {
 	public static void outBox(Box<? extends Toy> box) {
 		Toy toy = box.getOb();
-		box.setOb(new Toy());
+//		box.setOb(new Toy());
 		System.out.println(toy);
 	}
 
 	public static void inBox(Box<? super Toy> box, Toy n) { 
 		box.setOb(n);
-		box.getOb(new Toy());
+//		box.getOb(new Toy());
 		
 	}
 	
